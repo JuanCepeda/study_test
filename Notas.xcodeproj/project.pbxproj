@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9AB57F982EF319500068C0ED /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 9AB57F972EF319500068C0ED /* SnapshotTesting */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9A815F9D2EE86FFC00CEC1C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB57F982EF319500068C0ED /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +72,7 @@
 				9A1420812EE8C157006ADB07 /* Notas.xctestplan */,
 				9A35F39E2EC4F082005A3B71 /* Notas */,
 				9A347A382EF304C600D72ECF /* Test */,
+				9AB57F962EF319500068C0ED /* Frameworks */,
 				9A35F39D2EC4F082005A3B71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +84,13 @@
 				9A815F992EE86FFC00CEC1C2 /* NotasTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB57F962EF319500068C0ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			);
 			name = NotasTests;
 			packageProductDependencies = (
+				9AB57F972EF319500068C0ED /* SnapshotTesting */,
 			);
 			productName = NotasTests;
 			productReference = 9A815F992EE86FFC00CEC1C2 /* NotasTests.xctest */;
@@ -476,6 +490,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AB57F972EF319500068C0ED /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A347A342EF2F0C800D72ECF /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A35F3942EC4F082005A3B71 /* Project object */;
 }
