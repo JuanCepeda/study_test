@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "7BA00379-2D9F-4B98-A5A0-34CEC46A16EE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Notas.xcodeproj",
+      "identifier" : "9A35F39B2EC4F082005A3B71",
+      "name" : "Notas"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Notas.xcodeproj",
+        "identifier" : "9A815F982EE86FFC00CEC1C2",
+        "name" : "NotasTests"
+      }
+    }
+  ],
+  "version" : 1
+}
