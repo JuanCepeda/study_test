@@ -17,4 +17,10 @@ final class CreateNoteViewSnapshotTest: XCTestCase {
         assertSnapshot(of: createViewNote, as: .image)
     }
 
+    func testCreateNoteWithViewData() {
+        let createViewNote = CreateNoteView(viewModel: .init(),
+                                            title: "Title",
+                                            text: "Text")
+        assertSnapshot(of: createViewNote, as: .image)
+    }
 }
